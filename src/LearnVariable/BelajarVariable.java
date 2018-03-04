@@ -1,6 +1,6 @@
 package LearnVariable;
 
-public class Main {
+public class BelajarVariable {
     public static void main(String[]args){
         /*
         * Belajar tipe data

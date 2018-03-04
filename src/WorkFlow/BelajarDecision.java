@@ -1,7 +1,7 @@
 package WorkFlow;
 
 
-public class Main {
+public class BelajarDecision {
     public static void main(String[]args){
         /*If
         * ketika kita udah belajar tentang tipe data angka, kali ini kita akan gunakan tipe data decision
