@@ -58,10 +58,10 @@ public class BelajarMethod {
         int randomInt = (int) randNumber;// casting diubah ke tipe data int
         System.out.println(randomInt);
         //calling method Dadu
-        int lemparan1 = Dadu();
-        int lemparan2 = Dadu();
-        System.out.println("lemparan 1 = "+lemparan1);
-        System.out.println("lemparan 2 = "+lemparan2);
+        int lemparanDadu6 = Dadu(6);
+        int lemparanDadu8 = Dadu(8);
+        System.out.println("lemparan demgam mata dadu 6 = "+lemparanDadu6);
+        System.out.println("lemparan dengan mata dadu 8 = "+lemparanDadu8);
     }
    /* static boolean btnPlay = true;
     private static void playMusic(){
@@ -117,9 +117,9 @@ public class BelajarMethod {
         return change;
     }
     //dadu
-    private static int Dadu(){
+    private static int Dadu(int mataDadu){//supaya lebih dinamais maka kita kasih parameter untuk berapa jml maksimal mata dadu
         double acak = Math.random();
-        acak = acak * 6;
+        acak = acak * mataDadu;
         acak = acak + 1;
         return (int) acak;
     }
