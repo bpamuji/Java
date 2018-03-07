@@ -62,6 +62,14 @@ public class BelajarMethod {
         int lemparanDadu8 = Dadu(8);
         System.out.println("lemparan demgam mata dadu 6 = "+lemparanDadu6);
         System.out.println("lemparan dengan mata dadu 8 = "+lemparanDadu8);
+
+        /*java doc comment
+        * general desc of a function
+        *
+        * @param a first input paramater, named a
+        * @param second input paramater, named b
+        *
+        * @return desc of return value*/
     }
    /* static boolean btnPlay = true;
     private static void playMusic(){
@@ -108,12 +116,13 @@ public class BelajarMethod {
     private int makeChange(int itemCost, int dolarProvided){
         int change = dolarProvided - itemCost;
         if (change < 0){
+            change = Math.abs(change);
             System.out.println("Duit anda sekarang "+dolarProvided);
             System.out.println("Tambahan belanja anda "+itemCost);
             System.out.println("sehingga kurang Rp "+change);
             change = 0;
         }
-        System.out.println("uang kembali Rp"+change);
+        System.out.println("uang kembali Rp "+change);
         return change;
     }
     //dadu
